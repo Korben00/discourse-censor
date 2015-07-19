@@ -3,5 +3,5 @@
 # version: 0.1
 # authors: Cameron Wong
 
-register_asset "javascripts/censor.js" :server_side
+register_asset "javascripts/censor.js", :server_side
 
