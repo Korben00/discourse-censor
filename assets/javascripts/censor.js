@@ -1,5 +1,5 @@
 function censor(text) {
-  return text.replace(/cameron wong/i, "Cam")
+  return text.replace(/cameron wong/ig, "Cam")
 }
 
 Discourse.Dialect.postProcessText(function(text) {
